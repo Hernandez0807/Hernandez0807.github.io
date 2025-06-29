@@ -1,0 +1,61 @@
+@import url(../../shared/css/vars.css);
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto;
+  display: block;
+  white-space: nowrap;
+  margin: clamp(15px, 3vw, 25px) 0;
+}
+
+table th {
+  background-color: #4fa3c7 ;
+  color: #000 ;
+  font-weight: bold;
+  padding: clamp(8px, 2vw, 12px);
+  border: 2px solid #2b5c73;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+  font-size: clamp(0.8rem, 2vw, 1rem);
+}
+
+table th:hover {
+  background-color: #2b5c73 ;
+  color: #fff ;
+}
+
+table td {
+  padding: clamp(6px, 1.5vw, 10px);
+  border: 1px solid #223344;
+  color: #fff ;
+  font-size: clamp(0.8rem, 2vw, 0.9rem);
+  text-align: center;
+}
+
+table img {
+  border: 2px solid #4fa3c7;
+  border-radius: 50%;
+  width: clamp(40px, 8vw, 60px);
+  height: clamp(40px, 8vw, 60px);
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  margin: 0 auto;
+  display: block;
+  float: none;
+}
+
+table img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+table caption {
+  color: var(--color--text-white);
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 8px 0;
+  letter-spacing: 1px;
+  background: none;
+}
