@@ -1,34 +1,16 @@
 :root {
-  /* Paleta principal */
-  --color-bg-black: #000;
-  --color-bg-dark: #101820;
-  --color-bg-navbar: #14213d;
-  --color-bg-header: #0d2a50;
-  --color-bg-footer: #101820;
-  --color-bg-form: #000;
-  --color-bg-form-hover: #101820;
-  --color-bg-navbar-brand: rgba(13,202,240,0.08);
-  --color-bg-navbar-brand-hover: #0dcaf0;
-  --color-bg-navbar-link-hover: #223344;
-
-  /* Colores de texto */
-  --color-text-white: #fff;
-  --color-text-black: #000;
-  --color-text-blue: #7ecbff;
-  --color-text-navbar-link-active: #00bcd4;
-  --color-text-navbar-brand-hover: #212529;
-  --color-text-table-th: #000;
-
-
-  /* Colores de acento y bordes */
-  --color-accent-cyan: #0dcaf0;
-  --color-accent-cyan-dark: #0a58ca;
-  --color-accent-blue: #4fa3c7;
-  --color-accent-blue-dark: #2b5c73;
-  --color-accent-form-border: #4fa3c7;
-  --color-accent-form-border-focus: #0a58ca;
-  --color-accent-form-shadow: #0dcaf0;
-
-  /* Otros */
-  --color-shadow-navbar: rgba(13, 42, 80, 0.3);
+  --color-bg-gradient: linear-gradient(to bottom right, #6b4eff, #fa5ec9);
+  --color-primary: #6b4eff;
+  --color-secondary: #fa5ec9;
+  --color-white: #fff;
+  --color-black: #333;
+  --color-card-bg: rgba(255, 255, 255, 0.15);
+  --color-card-border: #ffffff50;
+  --color-nav-bg: rgba(33, 33, 33, 0.85);
+  --color-nav-border: #ffffff30;
+  --color-nav-text: #ccc;
+  --color-nav-text-active: #fff;
+  --font-main: 'Segoe UI', sans-serif;
+  --border-radius: 1rem;
+  --input-radius: 1.2rem;
 }
